@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449B759C26D57CD8009B7874 /* swift.g4 in Resources */ = {isa = PBXBuildFile; fileRef = 449B759B26D57CD8009B7874 /* swift.g4 */; };
 		449B75A026D57DBD009B7874 /* SwiftParserWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B759F26D57DBD009B7874 /* SwiftParserWrapper.swift */; };
 		449B75AC26D57ED6009B7874 /* swift.interp in Resources */ = {isa = PBXBuildFile; fileRef = 449B75A226D57ED5009B7874 /* swift.interp */; };
 		449B75AD26D57ED6009B7874 /* swiftLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B75A326D57ED6009B7874 /* swiftLexer.swift */; };
@@ -19,6 +18,7 @@
 		449B75B326D57ED6009B7874 /* swiftBaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B75A926D57ED6009B7874 /* swiftBaseListener.swift */; };
 		449B75B426D57ED6009B7874 /* swiftLexer.interp in Resources */ = {isa = PBXBuildFile; fileRef = 449B75AA26D57ED6009B7874 /* swiftLexer.interp */; };
 		449B75B526D57ED6009B7874 /* swiftParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B75AB26D57ED6009B7874 /* swiftParser.swift */; };
+		449B75B726D58846009B7874 /* swift.g4 in Resources */ = {isa = PBXBuildFile; fileRef = 449B75B626D58846009B7874 /* swift.g4 */; };
 		F48108252488396E00AE2FDA /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48108242488396E00AE2FDA /* Interpreter.swift */; };
 		F48108272488398200AE2FDA /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48108262488398200AE2FDA /* Instruction.swift */; };
 		F481082924883B2900AE2FDA /* VirtualMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F481082824883B2900AE2FDA /* VirtualMachine.swift */; };
@@ -69,7 +69,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		449B759B26D57CD8009B7874 /* swift.g4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = swift.g4; path = "../../../amit-help/swift.g4"; sourceTree = "<group>"; };
 		449B759F26D57DBD009B7874 /* SwiftParserWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftParserWrapper.swift; sourceTree = "<group>"; };
 		449B75A226D57ED5009B7874 /* swift.interp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swift.interp; sourceTree = "<group>"; };
 		449B75A326D57ED6009B7874 /* swiftLexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftLexer.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		449B75A926D57ED6009B7874 /* swiftBaseListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftBaseListener.swift; sourceTree = "<group>"; };
 		449B75AA26D57ED6009B7874 /* swiftLexer.interp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swiftLexer.interp; sourceTree = "<group>"; };
 		449B75AB26D57ED6009B7874 /* swiftParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftParser.swift; sourceTree = "<group>"; };
+		449B75B626D58846009B7874 /* swift.g4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = swift.g4; sourceTree = "<group>"; };
 		F466C3F026C572E400A00130 /* Antlr4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Antlr4; sourceTree = "<group>"; };
 		F48108242488396E00AE2FDA /* Interpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpreter.swift; sourceTree = "<group>"; };
 		F48108262488398200AE2FDA /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
@@ -162,8 +162,8 @@
 		F48E45D72483E306008D58C3 /* Grammar */ = {
 			isa = PBXGroup;
 			children = (
+				449B75B626D58846009B7874 /* swift.g4 */,
 				449B75A126D57EC0009B7874 /* parser */,
-				449B759B26D57CD8009B7874 /* swift.g4 */,
 				F48E45EA2483E70D008D58C3 /* Arithmetic.g4 */,
 				F48E45EB2483E70D008D58C3 /* Autogen */,
 			);
@@ -335,12 +335,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49EF20A247E13AF0001F968 /* LaunchScreen.storyboard in Resources */,
+				449B75B726D58846009B7874 /* swift.g4 in Resources */,
 				449B75B426D57ED6009B7874 /* swiftLexer.interp in Resources */,
 				F49EF207247E13AF0001F968 /* Preview Assets.xcassets in Resources */,
 				449B75B126D57ED6009B7874 /* swift.tokens in Resources */,
 				449B75AE26D57ED6009B7874 /* swiftLexer.tokens in Resources */,
 				449B75AC26D57ED6009B7874 /* swift.interp in Resources */,
-				449B759C26D57CD8009B7874 /* swift.g4 in Resources */,
 				F49EF204247E13AF0001F968 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
